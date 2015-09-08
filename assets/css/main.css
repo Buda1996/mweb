@@ -2667,6 +2667,7 @@
 				display: none;
 			}
 
+
 		/* Copyright */
 
 			#copyright {
@@ -2686,10 +2687,14 @@
 						#copyright ul li:first-child {
 							margin-top: 0;
 						}
-
+	#copyright .bannerad {
+				height: 5.8em;
+				width: 82em;
+				border-left: 2px solid red;
+				border-right: 2px solid red;
+				border-bottom: 2px solid red;
+			}
 	}
 
-	.banner ad {
-width:468px;
-margin:0 auto;
-}
+
+		
