@@ -1,0 +1,111 @@
+
+.naver {
+    background: #0C0D0D;
+    color: #B4B9B9;
+    width: auto;
+    height: auto;
+    font-size: 3em;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    text-align: right;
+    padding-right: 1em;
+}
+
+
+
+body {
+    margin: auto;
+    width: auto;
+    color: black;
+    background: #BDBDBD;
+    width: 100%;
+}
+
+
+
+.team-wrapper {
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+
+
+.odvajac {
+    display: inline-block;
+}
+
+.left {
+    display: block;
+    float: left;
+    margin: auto;
+    width: auto;
+    
+}
+
+.left p{
+    text-align: center;
+}
+
+.right {
+    display: block;
+    float: right;
+    margin: auto;
+    width: auto;
+   
+}
+
+#pe {
+    font-size: 5em;
+    text-align: center;
+}
+
+.glavnica {
+    margin: auto;
+    background-color: #BDBDBD;
+    text-align: center;
+    font-size: 3em;
+    color: #000;
+    width: 100%;
+    
+}
+
+.projekti {
+    display: inline-block;
+    margin: auto;
+    padding-top:4em;
+    padding-bottom:4em;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+#odvajanje {
+    display: block;
+    margin: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.project-wrapper {
+    display: inline-flex;
+    margin: auto;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.project-wraper-div {
+    padding: 20px;
+}
+
+.wrapper {
+    border-radius: 1px;
+    border-width: 0px 20px 0px 20px #00004C solid;
+    padding: 20px;
+    display: block;
+    width: auto;
+    margin: auto;
+    text-align: center;
+}

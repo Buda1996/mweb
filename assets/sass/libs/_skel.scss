@@ -226,10 +226,10 @@
 		// Main class.
 			.container {
 				@if $lock {
-					width: $width !important;
+					width: auto;
 				}
 				@else {
-					width: $width;
+					width: auto;
 				}
 			}
 
