@@ -20,7 +20,6 @@ body {
     margin: auto;
     width: auto;
     color: black;
-    background: #BDBDBD;
     width: 100%;
 }
 
@@ -65,7 +64,6 @@ body {
 
 .glavnica {
     margin: auto;
-    background-color: #BDBDBD;
     text-align: center;
     font-size: 3em;
     color: #000;
@@ -109,4 +107,8 @@ body {
     width: auto;
     margin: auto;
     text-align: center;
+}
+
+#logo {
+    background-image: url(assets/images/nav.png)
 }
