@@ -26,8 +26,8 @@ body {
 
 
 .team-wrapper {
+  padding: 20px;
     display: inline-block;
-    margin: auto;
 }
 
 
@@ -62,13 +62,15 @@ body {
 }
 
 .glavnica {
-    margin: auto;
-    background-color: #BDBDBD;
-    text-align: center;
     font-size: 3em;
     color: #000;
     width: 100%;
-    
+    display: inline-block;
+    margin: auto;
+    padding-top:4em;
+    padding-bottom:4em;
+    text-align: center;
+    height: auto;
 }
 
 .projekti {
@@ -81,12 +83,7 @@ body {
     height: auto;
 }
 
-#odvajanje {
-    display: block;
-    margin: auto;
-    padding-left: 2em;
-    padding-right: 2em;
-}
+
 
 .project-wrapper {
     display: inline-block;
