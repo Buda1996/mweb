@@ -42,7 +42,7 @@ body {
     float: left;
     margin: auto;
     width: auto;
-    
+
 }
 
 .left p{
@@ -54,7 +54,7 @@ body {
     float: right;
     margin: auto;
     width: auto;
-   
+
 }
 
 #pe {
@@ -69,7 +69,7 @@ body {
     font-size: 3em;
     color: #000;
     width: 100%;
-    
+
 }
 
 .projekti {
@@ -90,7 +90,7 @@ body {
 }
 
 .project-wrapper {
-    display: inline-flex;
+    display: inline-block;
     margin: auto;
     padding-left: 5em;
     padding-right: 5em;
