@@ -75,6 +75,7 @@ body {
 
 .projekti {
     display: inline-block;
+    background: black;
     margin: auto;
     padding-top:4em;
     padding-bottom:4em;

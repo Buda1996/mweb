@@ -79,6 +79,8 @@ body {
 }
 
 .projekti {
+    color: white;
+    background: #1A237E;
     display: inline-block;
     margin: auto;
     padding-top:4em;
@@ -114,5 +116,8 @@ body {
 }
 
 #logo {
-    background-image: url(assets/images/nav.png)
+    background-image: url(assets/images/nav.png);
+    width: auto;
+    margin: auto;
+        
 }
