@@ -28,6 +28,17 @@ body {
 .team-wrapper {
   padding: 20px;
     display: inline-block;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../images/pozadina2.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 
@@ -71,6 +82,7 @@ body {
     padding-bottom:4em;
     text-align: center;
     height: auto;
+    
 }
 
 .projekti {
