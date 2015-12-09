@@ -1,28 +1,5 @@
-
-.naver {
-    display: block;
-    background: #263238;
-    color: #B4B9B9;
-    width: 100%;
-    height: auto;
-    font-size: 1em;
-    text-decoration: none;
-}
-
-ul{
-    display: 
-}
-
-li {
-    padding-left: 1em;
-    padding-right: 1em;
-    list-style: none;
-    font-size: 2em;
-}
-
-
 body {
-    background: url("assets/images/pozadina.jpg");
+    background: #0c0d0d;
     margin: auto;
     width: auto;
     color: black;
@@ -44,7 +21,12 @@ body {
     height: auto;
 }
 
-
+.outline{
+       color: black;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
 
 .odvajac {
     display: inline-block;
@@ -76,7 +58,17 @@ body {
 }
 
 .glavnica {
-    background: transparent;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../images/pozadina.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
     font-size: 3em;
     color: #fff;
     width: 100%;
@@ -146,7 +138,7 @@ hr {
     border-top: 1px solid #eee;
 }
 hr {
-    height: 0;
+    height: 1;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;

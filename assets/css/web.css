@@ -74,7 +74,7 @@ body {
 }
 
 .projekti {
-    display: inline-block;
+    display: inline-flex;
     margin: auto;
     padding-top:4em;
     padding-bottom:4em;
