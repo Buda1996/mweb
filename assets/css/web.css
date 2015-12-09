@@ -4,7 +4,7 @@
     color: #B4B9B9;
     width: auto;
     height: auto;
-    font-size: 3em;
+    font-size: 5em;
     text-decoration: none;
 }
 li {
@@ -75,7 +75,6 @@ body {
 
 .projekti {
     display: inline-block;
-    background: black;
     margin: auto;
     padding-top:4em;
     padding-bottom:4em;
