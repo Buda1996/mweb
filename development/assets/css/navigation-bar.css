@@ -113,7 +113,7 @@ a:link, a:visited, a:hover, a:active {
   border-radius: 2px;
   border-bottom: 2px #00c303 solid;
   border-bottom-color: #00c303;
-  border-bottom-style: dotted;
+  border-bottom-style: solid;
 }
 
 /* The element at the top of the page right after the fixed navigation bar

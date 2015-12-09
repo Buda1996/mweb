@@ -33,7 +33,7 @@ body {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../images/pozadina2.jpg);
+    background-image: url(../images/pozadina22.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -98,6 +98,7 @@ body {
 
 
 .project-wrapper {
+    background: #000;
     display: inline-block;
     margin: auto;
     padding-left: 5em;
