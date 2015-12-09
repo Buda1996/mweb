@@ -28,7 +28,7 @@ body {
     padding-bottom:4em;
     text-align: center;
     width: 100%;
-    height: auto;
+    height: 30%;
 }
 
 .outline{
@@ -70,10 +70,10 @@ body {
 .glavnica {
     position: relative;
     width: 100%;
-    min-height: 14em;
+    min-height: 30%;
     text-align: center;
     color: #fff;
-    background-image: url(../images/pozadina.jpg);
+    background-image: url(../images/pozadina11.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -98,7 +98,7 @@ body {
     padding-bottom:4em;
     text-align: center;
     width: 100%;
-    height: auto;
+    height: 30%;
 }
 
 #odvajanje {
