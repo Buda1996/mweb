@@ -16,7 +16,7 @@ body {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../images/pozadina2.jpg);
+    background-image: url(../images/pozadina22.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -70,7 +70,7 @@ body {
 .glavnica {
     position: relative;
     width: 100%;
-    min-height: auto;
+    min-height: 14em;
     text-align: center;
     color: #fff;
     background-image: url(../images/pozadina.jpg);
@@ -92,7 +92,6 @@ body {
 
 .projekti {
     color: white;
-    background: #0C0D0D;
     display: inline-block;
     margin: auto;
     padding-top:4em;
