@@ -22,7 +22,7 @@ li {
 
 
 body {
-    background-image: url(assets/images/ter.jpg);
+    background: url("assets/images/pozadina.jpg");
     margin: auto;
     width: auto;
     color: black;
