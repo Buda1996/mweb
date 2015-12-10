@@ -142,6 +142,7 @@ a:link, a:visited, a:hover, a:active {
   display: inline-block;
 }
 .sitename {
+font-size: 2em;
   display: inline-block;
   margin-right: 20px;
   margin-left: 10px;
