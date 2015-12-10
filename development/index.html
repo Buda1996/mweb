@@ -1,5 +1,13 @@
 <HTML>
 <head>
+    <script>
+        $(document).ready(function() {
+    var itemWidth = $('#boxContainer').width();
+    var availWidth = $(screen).width();
+    var difference = availWidth - itemWidth;
+    $('#boxContainer').css('margin: 0 ' + Math.round(difference / 2) + 'px');
+});
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/main.css" type="text/css" rel="stylesheet">
     <link href="assets/css/navigation-bar.css" type="text/css" rel="stylesheet">
