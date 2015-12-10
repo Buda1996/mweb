@@ -70,7 +70,6 @@ body {
 .glavnica {
     
     width: 100%;
-    min-height: 100%;
     text-align: center;
     color: #fff;
     background-image: url(../images/pozadina11.jpg);
@@ -98,7 +97,7 @@ body {
     padding-bottom:4em;
     text-align: center;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 #odvajanje {
@@ -111,8 +110,6 @@ body {
     background: #000;
     display: inline-block;
     margin: auto;
-    padding-left: 5em;
-    padding-right: 5em;
     border: 2px  #00c303 solid  ;
     border-radius: 2px;
 }
