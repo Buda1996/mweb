@@ -1,5 +1,7 @@
 /* WEB FONT */
 @import url(http://fonts.googleapis.com/css?family=Signika:600|Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(htpp://fonts.googleapis.com/css?family=Marvel);
 
 /* RESET */
 * {
@@ -8,21 +10,41 @@
   border: 0;
 }
 h1, h2 {
-  font-family: "Signika", sans-serif;
-  font-weight: 600;
+  font-family: "Lobster";
+  font-weight: 300;
+    color: #000;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #00c303;
+    text-shadow: 1px 0px 10px green;
+    
 }
 h1 {
   font-size: 36px;
   line-height: 46px;
-  color: #e0e0e0;
+  color: #000;
+    font-family: "Lobster";
+     -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #00c303;
+    text-shadow: 1px 0px 10px green;
+    color: #000;
 }
 h2 {
   font-size: 24px;
   line-height: 33px;
   margin-bottom: -20px;
+    font-family: "Lobster";
+     -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #00c303;
+    text-shadow: 1px 0px 10px green;
+    color: #000;
 }
 p {
   margin: 20px 0;
+font-family: "Lobster";
+ -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #00c303;
+    text-shadow: 1px 0px 10px #00c303;
+    color: #000;
 }
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
@@ -133,22 +155,26 @@ a:link, a:visited, a:hover, a:active {
   margin: 0 auto;
 }
 .menu a, .menu a:visited {
-  color: #ffffff;
+  color: #00c303;
 }
 .menu a:hover, .menu a:target {
   color: #ebebeb;
 }
 .menu-items {
   display: inline-block;
+    font-family: "Marvel";
+    font-size: 20px;
 }
 .sitename {
-font-size: 2em;
+    color: #00c303;
   display: inline-block;
   margin-right: 20px;
   margin-left: 10px;
+    font-family: "Marvel";
+    font-size: 20px;
 }
 a.sitename, a:visited.sitename {
-  color: #e0e0e0;
+  color: #00c303;
 }
 .menu-items li {
   display: inline-block;
