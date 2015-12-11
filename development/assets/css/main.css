@@ -1,9 +1,9 @@
 body {
     background: #000;
-    margin: auto;
-    width: auto;
-    color: black;
+    height: 100%;
     width: 100%;
+    margin: 0;
+    color: black;
 
 }
 
@@ -11,9 +11,6 @@ body {
 
 .team-wrapper {
     display: inline-block;
-    
-    width: 100%;
-    min-height: auto;
     text-align: center;
     color: #fff;
     background-image: url(../images/pozadina22.jpg);
@@ -23,12 +20,11 @@ body {
     background-size: cover;
     -o-background-size: cover;
     display: inline-block;
-    margin: auto;
     padding-top:4em;
     padding-bottom:4em;
     text-align: center;
-    width: 100%;
     height: 100%;
+    width: 100%;
 }
 
 .outline{
@@ -68,7 +64,7 @@ body {
 }
 
 .glavnica {
-    
+    height: 100%;
     width: 100%;
     text-align: center;
     color: #fff;
@@ -80,24 +76,20 @@ body {
     -o-background-size: cover;
     font-size: 3em;
     color: #fff;
-    width: 100%;
     display: inline-block;
-    margin: auto;
     padding-top:4em;
     padding-bottom:4em;
     text-align: center;
-    height: auto;
 }
 
 .projekti {
     color: white;
     display: inline-block;
-    margin: auto;
+    height: 100%;
+    width: 100%;
     padding-top:4em;
     padding-bottom:4em;
     text-align: center;
-    width: 100%;
-    height: auto;
 }
 
 #odvajanje {
