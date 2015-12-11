@@ -1,16 +1,11 @@
 body {
     background: #000;
-    height: 100%;
-    width: 100%;
-    margin: 0;
     color: black;
-
 }
 
 
 
 .team-wrapper {
-    display: inline-block;
     text-align: center;
     color: #fff;
     background-image: url(../images/pozadina22.jpg);
@@ -19,12 +14,11 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    display: inline-block;
     padding-top:4em;
     padding-bottom:4em;
     text-align: center;
-    height: 100%;
-    width: 100%;
+    
+    
 }
 
 .outline{
@@ -41,8 +35,8 @@ body {
 .left {
     display: block;
     float: left;
-    margin: auto;
-    width: auto;
+    
+    
 
 }
 
@@ -53,8 +47,8 @@ body {
 .right {
     display: block;
     float: right;
-    margin: auto;
-    width: auto;
+    
+    
 
 }
 
@@ -64,8 +58,8 @@ body {
 }
 
 .glavnica {
-    height: 100%;
-    width: 100%;
+    
+    
     text-align: center;
     color: #fff;
     background-image: url(../images/pozadina11.jpg);
@@ -83,10 +77,8 @@ body {
 }
 
 .projekti {
+    flex: 1;
     color: white;
-    display: inline-block;
-    height: 100%;
-    width: 100%;
     padding-top:4em;
     padding-bottom:4em;
     text-align: center;
@@ -94,14 +86,12 @@ body {
 
 #odvajanje {
     display: inline-block;
-    margin: auto;
+    
     
 }
 
 .project-wrapper {
     background: #000;
-    display: inline-block;
-    margin: auto;
     border: 2px  #00c303 solid  ;
     border-radius: 2px;
 }
@@ -113,15 +103,15 @@ body {
 .wrapper {
     padding: 20px;
     display: block;
-    width: auto;
-    margin: auto;
+    
+    
     text-align: center;
 }
 
 #logo {
     background-image: url(assets/images/nav.png);
-    width: auto;
-    margin: auto;
+    
+    
         
 }
 
@@ -139,7 +129,6 @@ hr {
     border-top: 1px solid #eee;
 }
 hr {
-    height: 1;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
@@ -160,4 +149,8 @@ user agent stylesheethr {
 }
 ul {
     padding-left: 42%;
+}
+
+.row {
+    display: flex;
 }

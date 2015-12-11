@@ -86,29 +86,21 @@ body {
 }
 
 .projekti {
-    display: inline-flex;
-    margin: auto;
     padding-top:4em;
     padding-bottom:4em;
     text-align: center;
-    width: 100%;
-    height: auto;
+    width:calc(100% / 3);
 }
 
 
 
 .project-wrapper {
-    background: #000;
-    display: inline-block;
-    margin: auto;
-    padding-left: 5em;
-    padding-right: 5em;
-    border: 2px 
+    background: #000;;   
+    border: 2px;
 }
 
 .project-wraper-div {
-    padding: 20px;
-    display: inline-block;
+    display: flex;
 }
 
 .wrapper {
