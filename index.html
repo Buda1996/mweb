@@ -1,330 +1,76 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Spike Laboratory</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body class="homepage">
-		<div id="page-wrapper">
+<HTML>
+<head>
+    <script>
+    $(window).resize(function()
+{
+    var Width = $(document).width();
+    var Height = $(document).height();
 
-			<!-- Header -->
-				<div id="header-wrapper" class="wrapper">
-					<div id="header">
+    $('body').css({"height" : Height, "width" : Width});
+}
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/main.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/navigation-bar.css" type="text/css" rel="stylesheet">
+<title>Web development</title>
+</head>
+    <body>
+        <div>
+<nav class="fixed-nav-bar">
+  <div id="menu" class="menu">
+    <a class="sitename" href="fixed-navigation-bar.html">Spike Lab</a>
+    <!-- Example responsive navigation menu  -->
+    <a class="show" href="#menu">Menu</a><a class="hide" href="#hidemenu">Menu</a>
+    <ul class="menu-items">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projekti">Project</a></li>
+      <li><a href="#tim">Team</a></li>
+      <li><a href="#kontakt">Contact</a></li>
+  </ul>
+  </div>
+</nav>
+            </div>
+        <section class="glavnica" id="home">
+        <img src="assets/images/spikelabfont1.png" style="background: transparent;padding-top:2em;max-width:100%;max-height:100%;">
+            <p>We are a startup and we are working on Web development and Android development services!</p>
+        </section>
+        <section class="projekti" id="projekti">
+            <h1>Succesfull projects behind us:</h1>
+<div class="project-wrapper">
+<h3>BLC (Banjaluka College) App</h3>
+    <img src="assets/images/project/sample.jpg">
+    <p>An application that displays general information about Banjaluka College, with features such as help students organize their events and exams.</p>
+            </div>
+<div class="project-wrapper">
+<h3>BLC Radio</h3>
+    <img src="assets/images/project/sample.jpg">
+        <p>BLC Radio is a HTML5 based website , with beutiful UI and optimized back-end code for better services and quality.</p>
+            </div>
+<div class="project-wrapper">
+<h3>Touch Table HD</h3>
+    <img src="assets/images/project/sample.jpg">
+        <p>A project based on open source code and modifyed hardware.</p>
+            </div>
+        </section>
+<section class="team-wrapper" id="tim">
+                     <div class="wrapper">
+            <h1>Team</h1>
+            <p>We are Banja Luka College students our primary interests are working on web design , android application development and random projects.</p>
+        </div>
+       <div id="odvajanje">
+        <img src="assets/images/team/vuja.jpg"  />
+           <p >Stefan Vujasin</p>
+            </div>
 
-						<!-- Logo -->
-							<div id="logo">
-								<h1><a href="index.html">Spike Laboratory</a></h1>
-								<p>Team of developers, committed to make life easier!</p>
-														<div class="banner-ad">
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- home2 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-5681405332905628"
-     data-ad-slot="4851281993"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
-							</div>
+        <div id="odvajanje">
+            <img src="assets/images/team/nikola.jpg"  />
+            <p >Nikola Bilbija</p>
+                   </div>
+                   <div id="odvajanje">
+            <img src="assets/images/team/rados.jpg"  />
+            <p >Radoš Budiša</p>
+                   </div>
+        </section>
 
-						<!-- Nav -->
-							<nav id="nav">
-								<ul>
-									<li class="current"><a href="index.html">Home</a></li>
-									<li><a href="team.html">Get to know us</a></li>
-									<li><a href="#features">Skills</a></li>
-									<li><a href="changlog">Changelog</a></li>
-									<li><a href="gallery">Gallery</a></li>
-									<li><a href="projects">Projects</a>
-											<ul>
-												   <li><a href="devices.html">Metallium</a></li>
-													<li><a href="metaon">Metaon</a></li>
-													<li><a href="gapps">GApps</a></li>
-								</ul>
-							</nav>
-
-					</div>
-				</div>
-
-			<!-- Intro -->
-				<div id="intro-wrapper" class="wrapper style1">
-					<div class="title">Welcome to Spike Lab&copy;</div>
-					<section id="intro" class="container">
-						<p class="style1">Spike Lab&copy; is a group of developers. </p>
-						<p class="style2">
-							Here at Spike Lab&copy; we are trying to make the best out of our android devices.<br class="mobile-hide" /> 
-							
-						</p>
-						<p class="style3">We develop scripts and applications that will boost your device performance, keep and improve stability.</p>
-						<ul class="actions">
-							<li><a href="team.html" class="button style3 big">Meet us!</a></li>
-						</ul>
-					</section>
-				</div>
-
-			<!-- Main -->
-				<div class="wrapper style2">
-					<div class="title">Our skills</div>
-					<div id="main" class="container">
-
-						<!-- Image -->
-							<a href="#" class="image featured">
-								<img src="images/pic01.jpg" alt="" />
-							</a>
-
-						<!-- Features -->
-							<section id="features">
-								<header class="style1">
-									<h2>Multi-tasking</h2>
-									<p>We are making sure that we stay in contact with all kinds of technologyes!.</p>
-								</header>
-								<div class="feature-list">
-									<div class="row">
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-comment">Friendly</h3>
-												<p>We are making sure that we stay in contact with our users all-time.</p>
-											</section>
-										</div>
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-refresh">Updated</h3>
-												<p>Our features are all time updated.</p>
-											</section>
-										</div>
-									</div>
-									<div class="row">
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-picture-o">AweasomeUI</h3>
-												<p>We create simple, yet effective UI's</p>
-											</section>
-										</div>
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-cog">Unique</h3>
-												<p>Almost all features that we make are unique.</p>
-											</section>
-										</div>
-									</div>
-									<div class="row">
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-wrench">Effective</h3>
-												<p>Our development consists from clean code which is easy to read and understand.</p>
-											</section>
-										</div>
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-check">Correct</h3>
-												<p>Always providing the best quality software, if any bugs appear they are resolved right away.</p>
-											</section>
-										</div>
-									</div>
-								</div>
-								<ul class="actions actions-centered">
-									<li><a href="devices.html" class="button style1 big">Get Started</a></li>
-									<li><a href="metaon.html" class="button style2 big">More Info</a></li>
-								</ul>
-							</section>
-
-					</div>
-				</div>
-
-			<!-- Highlights -->
-				<div class="wrapper style3">
-					<div class="title">Our projects</div>
-					<div id="highlights" class="container">
-						<div class="row 150%">
-							<div class="4u 12u(mobile)">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-									<h3><a href="#">Metallium</a></h3>
-									<p>Metallium a unique user experience!</p>
-									<ul class="actions">
-										<li><a href="devices" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div>
-							<div class="4u 12u(mobile)">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-									<h3><a href="#">Metaon</a></h3>
-									<p>FAST. RELIABLE. ECONOMIC. POWERFUL.</p>
-									<ul class="actions">
-										<li><a href="metaon" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div>
-							<div class="4u 12u(mobile)">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/google_apps.png" alt="" /></a>
-									<h3><a href="#">GApps</a></h3>
-									<p>All aplications you need in one place!</p>
-									<ul class="actions">
-										<li><a href="gapps" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div>
-                            							<div style="visibility:hidden;" class="4u 12u(mobile)">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/google_apps.png" alt="" /></a>
-									<h3><a href="#">Web Developmetn</a></h3>
-									<p>All aplications you need in one place!</p>
-									<ul class="actions">
-										<li><a href="gapps" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div>
-                            							<div  class="4u 12u(mobile)" style="">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/web-development.jpg" alt="" /></a>
-									<h3><a href="#">Web Development</a></h3>
-									<p>We desing websites for a reasonable price!</p>
-									<ul class="actions">
-										<li><a href="development" class="button style1">See our Portfolio</a></li>
-									</ul>
-								</section>
-							</div>
-                            							<div style="visibility:hidden;" class="4u 12u(mobile)">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/google_apps.png" alt="" /></a>
-									<h3><a href="#">GApps</a></h3>
-									<p>All aplications you need in one place!</p>
-									<ul class="actions">
-										<li><a href="gapps" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- Footer -->
-				<div id="footer-wrapper" class="wrapper">
-					<div class="title">Contact us</div>
-					<div id="footer" class="container">
-
-						<div class="row 150%">
-							<div class="6u 12u(mobile)">
-
-								<!-- Contact Form -->
-									<section>
-										<form method="post" action="#">
-											<div class="row 50%">
-												<div class="6u 12u(mobile)">
-													<input type="text" name="name" id="contact-name" placeholder="Name" />
-												</div>
-												<div class="6u 12u(mobile)">
-													<input type="text" name="email" id="contact-email" placeholder="Email" />
-												</div>
-											</div>
-											<div class="row 50%">
-												<div class="12u">
-													<textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
-												</div>
-											</div>
-											<div class="row">
-												<div class="12u">
-													<ul class="actions">
-														<li><input type="submit" class="style1" value="Send" /></li>
-														<li><input type="reset" class="style2" value="Reset" /></li>
-													</ul>
-												</div>
-											</div>
-										</form>
-									</section>
-
-							</div>
-							<div class="6u 12u(mobile)">
-
-								<!-- Contact -->
-									<section class="feature-list small">
-										<div class="row">
-											<div class="6u 12u(mobile)">
-												<section>
-													<h3 class="icon fa-home">Mailing Address</h3>
-													<p>
-														Spike Laboratory<br />
-														Milana Brankovica 76<br />
-														Bosnia and Hercegowina
-													</p>
-												</section>
-											</div>
-											<div class="6u 12u(mobile)">
-												<section>
-													<h3 class="icon fa-comment">Social</h3>
-													<p>
-														<a class="icon fa-github" href="https://github.com/Metallium-ROM">github</a><br />
-														<a class="icon fa-github" href="https://github.com/Metallium-Devices">github-devices</a><br />
-														<a class="icon fa-google-plus" href="https://plus.google.com/u/1/communities/107947731978903158263">Google+</a><br>
-														<a class="icon fa-facebook" href="https://www.facebook.com/SpikeLabX10">facebook.com</a>
-													</p>
-												</section>
-											</div>
-										</div>
-										<div class="row">
-											<div class="6u 12u(mobile)">
-												<section>
-													<h3 class="icon fa-envelope">Email</h3>
-													<p>
-														<a href="#">buda795@gmail.com</a>
-													</p>
-												</section>
-											</div>
-											<div class="6u 12u(mobile)">
-												<section>
-													<h3 class="icon fa-phone">Phone</h3>
-													<p>
-														(387) 6517-6692
-													</p>
-												</section>
-											</div>
-										</div>
-									</section>
-
-							</div>
-						</div>
-						<hr />
-					</div>
-
-					<div id="copyright">
-
-						<ul>
-							<li>&copy; Spike Laboratory</li><li>Design: <a href="#">Rados Budisa</a></li>
-						</ul>
-						<div class="banner-ad">
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- home -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-5681405332905628"
-     data-ad-slot="8754835195"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
-					</div>
-				</div>
-
-		</div>
-
-		<!-- Scripts -->
-
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/skel-viewport.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+    </body>
+</HTML>
