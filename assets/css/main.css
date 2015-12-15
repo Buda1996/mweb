@@ -5,9 +5,10 @@ html {
 }
 /* fix the body to be full screen */
 body {
-  height:100%; /* top and bottom fixed to 0 would accomplish the samething, BUT since height percentage is dependent on the parent elements height, I'm using height:100% here to cascade down in order to allow the section and section:before to be designated as height:100%. */
+  height:100%;
+    width:100%;/* top and bottom fixed to 0 would accomplish the samething, BUT since height percentage is dependent on the parent elements height, I'm using height:100% here to cascade down in order to allow the section and section:before to be designated as height:100%. */
 	margin:0;
-  position:absolute; // body just be absolute to expand height and width
+  position:absolute; //* body just be absolute to expand height and width *//
   width:100%;
 }
 .fbg {
