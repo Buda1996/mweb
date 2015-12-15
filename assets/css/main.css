@@ -5,6 +5,7 @@ body {
 
 
 .team-wrapper {
+    height: 100%;
     text-align: center;
     color: #fff;
 }
@@ -40,13 +41,15 @@ body {
 }
 
 .glavnica {
-    color: #fff;
+    height: 100%;
+    overflow: none;
     font-size: 3em;
     color: #fff;
     text-align: center;
 }
 
 .projekti {
+    height: 100%;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -105,9 +108,7 @@ hr {
     box-sizing: content-box;
 }
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+   margin: auto;
 }
 user agent stylesheethr {
     display: block;
@@ -120,8 +121,4 @@ user agent stylesheethr {
 }
 ul {
     padding-left: 42%;
-}
-
-.row {
-    display: flex;
 }
