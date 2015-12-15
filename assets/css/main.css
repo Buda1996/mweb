@@ -1,11 +1,17 @@
 body {
-    background: #000;
-    color: black;
+  margin: 0;
+}
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #373B44;
+  height: 100vh;
 }
 
-
 .team-wrapper {
-    height: 100%;
     text-align: center;
     color: #fff;
 }
@@ -41,15 +47,13 @@ body {
 }
 
 .glavnica {
-    height: 100%;
-    overflow: none;
+    height: 90vh;
     font-size: 3em;
     color: #fff;
     text-align: center;
 }
 
 .projekti {
-    height: 100%;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
