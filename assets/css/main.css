@@ -7,15 +7,6 @@ body {
 .team-wrapper {
     text-align: center;
     color: #fff;
-    background-image: url(../images/pozadina22.jpg);
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    padding-top:4em;
-    padding-bottom:4em;
-    text-align: center;
 }
 
 .outline{
@@ -50,30 +41,32 @@ body {
 
 .glavnica {
     color: #fff;
-    background-image: url(../images/pozadina11.jpg);
-    background-position: center;
     font-size: 3em;
     color: #fff;
     text-align: center;
 }
 
 .projekti {
-   display: inline-block;
-    color: white;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
     padding-top:4em;
     padding-bottom:4em;
+    text-align: center;
+    color: white;
     text-align: center;
 }
 
 #odvajanje {
     display: inline-block;
     
-    
 }
 
-.project-wrapper {]
-    float:left;
-    width:30%;
+.project-wrapper {
+    width: 30%;
+    display: inline-table;
     background: #000;
     border: 2px  #00c303 solid  ;
     border-radius: 2px;
@@ -86,16 +79,11 @@ body {
 .wrapper {
     padding: 20px;
     display: block;
-    
-    
     text-align: center;
 }
 
 #logo {
-    background-image: url(assets/images/nav.png);
-    
-    
-        
+         
 }
 
 hr.light {
@@ -136,21 +124,4 @@ ul {
 
 .row {
     display: flex;
-}
-
-.project-wrapper1 {
-    float: right;
-    width: 30%;
-    background: #000;
-    border: 2px  #00c303 solid  ;
-    border-radius: 2px;
-    
-}
-
-.project-wrapper2 {
-    margin: auto;
-    width: 30%;
-    background: #000;
-    border: 2px  #00c303 solid  ;
-    border-radius: 2px;
 }
