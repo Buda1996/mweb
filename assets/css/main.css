@@ -1,128 +1,36 @@
+html {
+  color:#eee;
+  font-size: 70px;
+  font-family:courier; 
+}
+/* fix the body to be full screen */
 body {
-  margin: 0;
+  height:100%; /* top and bottom fixed to 0 would accomplish the samething, BUT since height percentage is dependent on the parent elements height, I'm using height:100% here to cascade down in order to allow the section and section:before to be designated as height:100%. */
+	margin:0;
+  position:absolute; // body just be absolute to expand height and width
+  width:100%;
 }
-section {
-  width: 100%;
-  padding: 0 7%;
-  display: table;
-  margin: 0;
-  max-width: none;
-  background-color: #373B44;
-  height: 100vh;
+.fbg {
+	background-attachment: fixed;
+	background-position: 50% top;
+	background-size: cover;
 }
-
-.team-wrapper {
-    text-align: center;
-    color: #fff;
-}
-
-.outline{
-       color: black;
-   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-   -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: black;
-}
-
-.odvajac {
+.section {  
+  height:100%;
+  position:relative;  
+  text-align:center;
+  width:100%;
+  &:before {
+    content:'';
     display: inline-block;
+    height:100%;  
+    width:0px;
+    vertical-align: middle;
+  }
 }
-
-.left {
-    display: block;
-    float: left;
-}
-
-.left p{
-    text-align: center;
-}
-
-.right {
-    display: block;
-    float: right;
-}
-
-#pe {
-    font-size: 5em;
-    text-align: center;
-}
-
-.glavnica {
-    height: 90vh;
-    font-size: 3em;
-    color: #fff;
-    text-align: center;
-}
-
-.projekti {
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    padding-top:4em;
-    padding-bottom:4em;
-    text-align: center;
-    color: white;
-    text-align: center;
-}
-
-#odvajanje {
-    display: inline-block;
-    
-}
-
-.project-wrapper {
-    width: 30%;
-    display: inline-table;
-    background: #000;
-    border: 2px  #00c303 solid  ;
-    border-radius: 2px;
-}
-
-.project-wraper-div {
-    padding: 20px;
-}
-
-.wrapper {
-    padding: 20px;
-    display: block;
-    text-align: center;
-}
-
-#logo {
-         
-}
-
-hr.light {
-    border-color: #00c303;
-}
-hr {
-    max-width: 500px;
-    border-width: 12px;
-}
-hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 0;
-    border-top: 1px solid #eee;
-}
-hr {
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-}
-* {
-   margin: auto;
-}
-user agent stylesheethr {
-    display: block;
-    -webkit-margin-before: 0.5em;
-    -webkit-margin-after: 0.5em;
-    -webkit-margin-start: auto;
-    -webkit-margin-end: auto;
-    border-style: inset;
-    border-width: 1px;
-}
-ul {
-    padding-left: 42%;
-}
+/* Use "background-color" and not just "background" else your other backgound attribute such as "size", "position", and "attachment" will be reset to default.*/
+#one {background-color:RebeccaPurple;}
+#two {background-color:Tomato;}
+#three {background-color:SkyBlue;}
+#four {background-color:MediumSeaGreen;}
+#five {background-color:DarkRed;}
