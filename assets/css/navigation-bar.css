@@ -2,7 +2,6 @@
 @import url(http://fonts.googleapis.com/css?family=Signika:600|Varela+Round);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 @import url(htpp://fonts.googleapis.com/css?family=Marvel);
-
 /* RESET */
 * {
   margin: 0;
@@ -49,12 +48,10 @@ font-family: "Lobster";
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
-
 /* LAYOUT */
 .fixed-nav-bar {
   box-shadow: 0px 0px 3px 0px #0c0c0c;
 }
-
 .content {
   position: relative;
   background: #464646 url(59H-from-gratisography.jpg) no-repeat center center fixed;
@@ -110,7 +107,6 @@ a:link, a:visited, a:hover, a:active {
   margin: 20px 10px 30px 0;
   color: #464646;
   border-color: #464646;
-
 }
 .button:hover, .button-dark:hover {
   transition: all 0.3s ease;
@@ -122,7 +118,6 @@ a:link, a:visited, a:hover, a:active {
   color: #ffffff;
   background-color: rgba(70, 70, 70, 0.9);
 }
-
 .fixed-nav-bar {
   position: fixed;
   top: 0;
@@ -137,16 +132,14 @@ a:link, a:visited, a:hover, a:active {
   border-bottom-color: #00c303;
   border-bottom-style: solid;
 }
-
 /* The element at the top of the page right after the fixed navigation bar
    MUST have sufficient top margin or else it will be covered by the bar */
 .content {
   margin-top: 20px;
 }
-
 /* Example responsive navigation menu  */
 .fixed-nav-bar li, .fixed-nav-bar a { 
-  height: 50px;
+  height: 0px;
   line-height: 50px;
 }
 .menu {
@@ -162,7 +155,7 @@ a:link, a:visited, a:hover, a:active {
 }
 .menu-items {
   display: inline-block;
-    font-family: "Marvel";
+    font-family: "Times New Roman";
     font-size: 20px;
 }
 .sitename {
@@ -198,7 +191,6 @@ a.sitename, a:visited.sitename {
 .hide {
   background-image: url(assets/up-arrow-icon.png);
 }
-
 @media only screen and (max-width: 800px) {
   .menu { 
     position: relative;
@@ -238,7 +230,6 @@ a.sitename, a:visited.sitename {
     display: inline-block;
   }
 }
-
 @media only screen and (max-width: 220px) {
   .sitename, .show, .hide {
     font-size: 14px;
