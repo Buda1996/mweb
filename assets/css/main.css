@@ -30,7 +30,7 @@ body {
   }
 }
 /* Use "background-color" and not just "background" else your other backgound attribute such as "size", "position", and "attachment" will be reset to default.*/
-#one {background-color:RebeccaPurple;}
+#zaglavlje {background-color:RebeccaPurple;}
 #two {background-color:Tomato;}
 #three {background-color:SkyBlue;}
 #four {background-color:MediumSeaGreen;}
