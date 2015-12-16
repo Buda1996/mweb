@@ -1,26 +1,42 @@
-
 <!DOCTYPE html>
 <html>
 <head>
     <link href="assets/css/main.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/navigation.css" type="text/css" rel="stylesheet">
 	<title></title>
 </head>
 <body>
 
 <!-- Just to demonstrate for the sake of dynamically generated content, you can have your cms inject the background-image into the section. If not dynamic, best practice is to designate them in the css and not the html -->
-<section id="one" class="section fbg" style="background-image:url('https://placeimg.com/1900/1100/animals');">
+<nav class="fixed-nav-bar">
+  <div id="menu" class="menu">
+    <a class="sitename" href="fixed-navigation-bar.html">Spike Lab</a>
+    <!-- Example responsive navigation menu  -->
+    <a class="show" href="#menu">Menu</a><a class="hide" href="#hidemenu">Menu</a>
+    <ul class="menu-items">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projekti">Projects</a></li>
+      <li><a href="#misija">Mission</a></li>
+      <li><a href="#tim">Team</a></li>
+      <li><a href="#kontakt">About</a></li>
+      <link rel="stylesheet" type="text/css" href="">
+  </ul>
+  </div>
+</nav>
+
+<section id="one" class="section fbg" >
 	one
 </section>
 <section id="two" class="section">
 	two
 </section>
-<section id="three" class="section fbg" style="background-image:url('https://placeimg.com/1800/1200/nature');">
+<section id="three" class="section fbg" >
 	three
 </section>
 <section id="four" class="section">
 	four
 </section>
-<section id="three" class="section fbg" style="background-image:url('https://placeimg.com/1900/1200/people');">
+<section id="three" class="section fbg">
 	five
 </section>
 </body>
