@@ -1,5 +1,5 @@
 html {
-  color:#eee;
+  color: black;
   font-size: 70px;
   font-family:courier; 
 }
@@ -7,7 +7,7 @@ html {
 body {
   height:100%;
     width:100%;/* top and bottom fixed to 0 would accomplish the samething, BUT since height percentage is dependent on the parent elements height, I'm using height:100% here to cascade down in order to allow the section and section:before to be designated as height:100%. */
-	margin:0;
+  margin:0;
   position:absolute; //* body just be absolute to expand height and width *//
   width:100%;
 }
@@ -30,8 +30,13 @@ body {
   }
 }
 /* Use "background-color" and not just "background" else your other backgound attribute such as "size", "position", and "attachment" will be reset to default.*/
-#zaglavlje {background-color:RebeccaPurple;}
-#two {background-color:Tomato;}
-#three {background-color:SkyBlue;}
-#four {background-color:MediumSeaGreen;}
-#five {background-color:DarkRed;}
+#home {background-color:RebeccaPurple;}
+#zaglavlje {background-color:Tomato;}
+#mision {background-color:SkyBlue;}
+#about {background-color:MediumSeaGreen;}
+#contact {background-color:DarkRed;}
+
+.container {
+    padding-top: 2em;
+    display: block;
+}
