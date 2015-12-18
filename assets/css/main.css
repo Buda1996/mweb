@@ -29,11 +29,11 @@ body {
   }
 }
 /* Use "background-color" and not just "background" else your other backgound attribute such as "size", "position", and "attachment" will be reset to default.*/
-#home {background-image:url(../bijelo.jpg);}
-#projects {background-color:#E6E6E6;}
-#mision {background-color:#E6E6E6;}
-#about {background-color:#E6E6E6;}
-#contact {background-color:#E6E6E6;}
+#home {background-color:#fff;}
+#projects {background-color:#fff;}
+#mision {background-color:#fff;}
+#about {background-color:#fff;}
+#contact {background-color:#fff;}
 
 .container {
      padding-top: 4em;
