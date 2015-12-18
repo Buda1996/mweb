@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" id="font-awesome-css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
     <link href="assets/css/main.css" type="text/css" rel="stylesheet">
     <link href="assets/css/navigation.css" type="text/css" rel="stylesheet">
 	<title></title>
@@ -8,15 +9,16 @@
 <body>
 
 <!-- Just to demonstrate for the sake of dynamically generated content, you can have your cms inject the background-image into the section. If not dynamic, best practice is to designate them in the css and not the html -->
-    <header>
-<ul>
-  <li><a  href="#home">Home</a></li>
-  <li><a href="#projects">Projects</a></li>
-  <li><a href="#mision">Mission</a></li>
-  <li><a href="#about">About</a></li>
-  <li><a href="#contact">Contact</a></li>
+    <ul class="topnav">
+  <li><a href="#home">Home</a></li>
+  <ul class="topnav right">
+  <li><a href="#project">Projects</a></li>
+  <li><a href="#mision">Mission</a></li>      
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
 </ul>
-    </header>
+
 
 
 <section id="home" class="section fbg" >
@@ -79,5 +81,12 @@
     </div>
     </div>
 </section>
+    <div class="scroll-top-wrapper ">
+	<span class="scroll-top-inner">
+		<i class="fa fa-2x fa-arrow-circle-up"></i>
+	</span>
+</div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
 </body>
 </html>

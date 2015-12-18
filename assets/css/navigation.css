@@ -1,20 +1,14 @@
-ul {
-    width: 100%;
+ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: fixed;
-    z-index: 10;
-    font-size: 1.2em;
 }
 
-li {
-    float: left;
-}
+ul.topnav li {float: left;}
 
-li a {
+ul.topnav li a {
     display: block;
     color: white;
     text-align: center;
@@ -22,14 +16,17 @@ li a {
     text-decoration: none;
 }
 
-a:hover:not(.active) {
-    background-color: #111;
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav ul.right {
+    float: right;
+    list-style-type: none;
 }
 
-.active {
-background-color:#4CAF50;
+@media screen and (max-width: 600px){
+    ul.topnav ul.right, 
+    ul.topnav li {float: none;}
 }
-
-#header {
-margin-top: 50px;
-}
+</
